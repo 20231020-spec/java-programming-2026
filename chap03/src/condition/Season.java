@@ -46,6 +46,8 @@ public class Season {
 			english = "Winter";
 			break;
 		}
+		
+		System.out.println(english);
 	}
 
 }
