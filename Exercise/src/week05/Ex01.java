@@ -40,9 +40,8 @@ public class Ex01 {
 			System.out.println(input + "은 배열에 없습니다.");
 			System.out.println(-1);
 		} else {
-			System.out.println("");
+			System.out.println("위치는 " + i + " 입니다.");
 		}
-		System.out.println("위치는 " + i + " 입니다.");
 	}
 
 }
