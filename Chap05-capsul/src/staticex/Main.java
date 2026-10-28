@@ -10,13 +10,13 @@ public class Main {
 		StaticMethod staticMethod = new StaticMethod();
 		staticMethod.n = 1;
 		staticMethod.m = 1;
-		StaticMethod.f2(0);
+		staticMethod.f2(0);
 		
 		
 		StaticMethod staticMethod2 = new StaticMethod();
 		staticMethod.n = 2;
 		staticMethod.m = 2;
-		StaticMethod.f2(0);
+		staticMethod.f2(0);
 		
 		System.out.println("1: " + staticMethod.n + ", " + staticMethod.m);
 		System.out.println("2: " + staticMethod.n + ", " + staticMethod.m);

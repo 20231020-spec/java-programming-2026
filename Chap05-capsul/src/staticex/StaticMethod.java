@@ -4,6 +4,9 @@ public class StaticMethod {
 	
 	int n;
 	static int m;
+	
+	
+	
 	void f1(int n) {
 		this.n = n;
 	}
