@@ -9,6 +9,9 @@ public class Main {
 		Person student1 = new Student("이성호", 23, 20231020, "모바일융합공학과");
 		Person student2 = new Student("강창수", 24, 20231010, "모바일융합공학과");
 		
+		System.out.println(student1);
+		System.out.println(student2);
+		
 		student1.print();
 		student2.print();
 		

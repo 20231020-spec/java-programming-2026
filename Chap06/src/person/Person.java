@@ -16,4 +16,15 @@ public class Person {
 		System.out.println("나이: " + age);
 	}
 
+	public String fieldsToString() {
+		return "name=" + name + ", age=" + age ;
+	}
+
+	
+	@Override
+	public String toString() {
+		return "Person [name=" + name + ", age=" + age + "]";
+	}
+
+
 }

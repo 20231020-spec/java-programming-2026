@@ -24,4 +24,11 @@ public class Student extends Person {
 		System.out.println("학과: " + this.department);
 	}
 
+	@Override
+	public String toString() {
+		return "Student [" +  super.fieldsToString() + ", studentNo=" + studentNo + ", department=" + department + "]";
+	}
+	
+	
+
 }
