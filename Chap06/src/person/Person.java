@@ -16,7 +16,7 @@ public class Person {
 		System.out.println("나이: " + age);
 	}
 
-	public String fieldsToString() {
+	protected String fieldsToString() {
 		return "name=" + name + ", age=" + age ;
 	}
 

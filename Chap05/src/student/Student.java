@@ -15,11 +15,10 @@ public class Student {
 		score = sc;
 	}
 
-	}
+	
 	void print() {
 		System.out.println(
-				"학번: "  + studentId
-				+ ", 이름: " + name
-				+
+				"학번: "  + studentId 
+				+ ", 이름: " + name + ", 사는 곳: " + city + ", 전화번호: " + phonenumder + ", 점수: " + score);
 	}
 }

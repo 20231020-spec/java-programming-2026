@@ -1,5 +1,5 @@
 package remocon;
 
-public interface VolumeRemoteControl {
-
+public interface VolumeRemoteControl extends RemoteControl {
+	public void setVolume(int volume);
 }

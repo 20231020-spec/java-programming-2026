@@ -14,10 +14,4 @@ public class AirCon implements RemoteControl {
 		
 	}
 
-	@Override
-	public void setVolume(int volume) {
-		// TODO Auto-generated method stub
-		
-	}
-
 }

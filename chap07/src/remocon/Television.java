@@ -1,6 +1,6 @@
 package remocon;
 
-public class Television implements RemoteControl{
+public class Television implements VolumeRemoteControl{
 
 	@Override
 	public void turnOn() {
